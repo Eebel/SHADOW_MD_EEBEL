@@ -5,6 +5,15 @@ You will need to flash the Dome Master Marcduino and the Body Master Marcduino w
 
 Follow the basic setup and wiring from the Astromech.net SHADOW and SHADOWMD WIKI pages.  If anyone has a good suggestion on how to do a proper wiring diagram, let me know and I'll add it to this repository.  Also, I'll add any other information to this site as requested.
 
-Pins for the body tools are as follows:
-servo1   servo2   servo3   servo4   servo5   servo6   servo7   servo8   servo9   servo10
- DPL     UtlArmU  UtlArmL   LBdyDr   LArm     LArm   ToolRBdyDr RArm    RArmTool  unused
+Pins for the body servos are as follows:
+servo1:  DPL - DataPanel Door
+servo2:  UtlArmU - Upper Utility Arm
+servo3:  UtlArmL - Lower Utility Arm
+servo4:  LBdyDr - Left BreadPan Door
+servo5:  LArm - Left Arm Raise/Lower
+servo6:  LArmTool - Left Arm Tool
+servo7:  ToolRBdyDr - Right BreadPan Door
+servo8:  RArm - Right Arm Raise/Lower
+servo9:  RArmTool - Right Arm Tool
+servo10: unused - Future Charge Bay Door servo
+  
